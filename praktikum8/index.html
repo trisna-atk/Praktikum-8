@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum8</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header{
+            background-color: lightskyblue;
+            height: 100px;
+        }
+
+        .main{
+            background-color: lightpink;
+            height: 500px;
+            display: flex;
+        }
+
+        .footer{
+            background-color: lightgray;
+            height: 100px;
+        }
+
+        .asside{
+            background-color: plum;
+            width: 20%;
+        }
+
+        .article{
+            background-color: olivedrab;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+        
+        .bingkai{
+            display: flex;
+            justify-content: center;
+        }
+
+        .bingkai img{
+            width: 250px;
+            margin: 0.5em;
+        }
+
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            header
+        </div>
+
+        <div class="main">
+            <div class="asside">
+                asside
+            </div>
+
+            <div class="article">
+                <h3>Article</h3>
+                <div class="bingkai">
+                    <img src="gambar4.jpg" alt="">
+                    <img src="gambar4.jpg" alt="">
+                    <img src="gambar4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            footer
+        </div>
+    </div>
+</body>
+</html>
